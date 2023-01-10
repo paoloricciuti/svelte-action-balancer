@@ -1,6 +1,14 @@
 # svelte-action-balancer
 
-[![React Wrap Balancer - Simple React Component That Makes Titles More Readable](.github/card.png)](https://svelte-action-balancer.netlify.app)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/svelte-action-balancer)
+
+![npm](https://img.shields.io/npm/v/svelte-action-balancer)
+
+![npm](https://img.shields.io/npm/dt/svelte-action-balancer)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/paoloricciuti/svelte-action-balancer)
 
 ## Introduction
 
