@@ -1,6 +1,6 @@
 type BalanceProps = { ratio?: number; enabled?: boolean; };
 
-export function balancer(node: HTMLElement, { ratio = .5, enabled = true }: BalanceProps = {}) {
+export function balancer(node: HTMLElement, { ratio = 1, enabled = true }: BalanceProps = {}) {
     // private variables to update from the update function to be accessible from the observer
     let _ratio = ratio;
     let _enabled = enabled;
@@ -54,7 +54,7 @@ export function balancer(node: HTMLElement, { ratio = .5, enabled = true }: Bala
     }
     observer.observe(closerNotContentsElement);
     return {
-        update({ ratio = .5, enabled = true }: BalanceProps) {
+        update({ ratio = 1, enabled = true }: BalanceProps) {
             // update the local variables
             _ratio = ratio;
             _enabled = enabled;
