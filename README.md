@@ -29,12 +29,10 @@ Then you can simply use your action on the element
 ```svelte
 <script>
   import { balancer } from "svelte-action-balancer";
-  let enabled = false;
-  let ratio = 0.5;
 </script>
 
-<h1 use:balance={{ enabled: true, ratio: .5 }}>
-    React: A JavaScript library for building user interfaces
+<h1 use:balancer={{ enabled: true, ratio: .5 }}>
+    Svelte: A much cooler JavaScript library for building user interfaces
 </h1>
 
 <style>
