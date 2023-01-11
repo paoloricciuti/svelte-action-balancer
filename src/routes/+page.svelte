@@ -159,7 +159,7 @@
             The quick brown fox jumps over the lazy dog
           </h2>
           <code style="padding-top: 1rem; margin: 0"
-            >use:balancer={`{{ ratio: ${(1 - value / 100).toFixed(2)} }}`}</code
+            >use:balancer={`{{ ratio: ${(value / 100).toFixed(2)} }}`}</code
           >
         </div>
       </div>
@@ -599,7 +599,7 @@
 
   h2.ratio-ruler span:after,
   h2.ratio-ruler:after {
-    content: "0";
+    content: "1";
     position: absolute;
     top: 100%;
     left: 0;
@@ -630,7 +630,7 @@
   }
 
   h2.ratio-ruler:after {
-    content: "1";
+    content: "0";
   }
 
   blockquote {
