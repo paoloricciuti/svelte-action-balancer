@@ -290,12 +290,15 @@
   <p use:balancer class="headline">About Svelte Action Balancer</p>
   <p use:balancer style="text-align:left;font-size:14px;justify-content:center">
     This project was inspired by Shu Ding <a
-      href=" https://react-wrap-balancer.vercel.app/"
-      target="_blank">react-wrap-balancer</a
+      href="https://react-wrap-balancer.vercel.app/"
+      target="_blank"
+      rel="noreferrer">react-wrap-balancer</a
     >
     which was in turn inspired by Adobe’s<!-- -->
-    <a href=" https://github.com/adobe/balance-text" target="_blank"
-      >balance-text</a
+    <a
+      href="https://github.com/adobe/balance-text"
+      target="_blank"
+      rel="noreferrer">balance-text</a
     >
     <!-- -->project, NYT’s<!-- -->
     <a

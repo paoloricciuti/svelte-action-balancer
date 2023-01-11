@@ -1,5 +1,4 @@
 <script>
-  import { balancer } from "svelte-action-balancer";
   let value = 55;
 </script>
 
