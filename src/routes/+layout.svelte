@@ -1,6 +1,7 @@
 <script>
   import "@fontsource/alice";
   import "@fontsource/inter";
+  import "@fontsource/inter/700.css";
 </script>
 
 <slot />
