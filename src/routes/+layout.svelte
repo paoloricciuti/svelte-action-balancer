@@ -1,3 +1,8 @@
+<script>
+  import "@fontsource/alice";
+  import "@fontsource/inter";
+</script>
+
 <slot />
 
 <style>
