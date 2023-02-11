@@ -44,7 +44,7 @@ Then you can simply use your action on the element
 
 ```
 
-For full documentation and use cases, please visit [**svelte-action-balancer.netlify.app**](https://react-wrap-balancer.vercel.app).
+For full documentation and use cases, please visit [**svelte-action-balancer.netlify.app**](https://svelte-action-balancer.netlify.app).
 
 ## About
 
